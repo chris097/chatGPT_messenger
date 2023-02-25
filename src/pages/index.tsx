@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Homepage from './Homepage'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-       <div className='text-center'>Hello chatgpt 2.0</div>
+        {/* sidebar */}
+        <div className='bg-[#343541] flex-1'>
+          <Homepage />
+       </div>
       </main>
     </>
   )
