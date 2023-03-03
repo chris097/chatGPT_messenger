@@ -23,12 +23,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {!session ? <Login /> : <main className='flex'>
-        <div className='bg-[#202123] max-w-sm h-screen overflow-y-auto md:min-w-[20rem]'>
           <Sidebar />
-        </div>
         <div className='bg-[#343541] flex-1'>
           <Homepage />
-       </div>
+        </div>
       </main>}
     </>
   )
