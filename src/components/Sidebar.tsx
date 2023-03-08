@@ -5,6 +5,7 @@ import NewChat from './NewChat'
 import { collection, orderBy, query } from 'firebase/firestore';
 import { db } from '@/firebase';
 import ChatRow from './ChatRow'; 
+import ModelSelection from './ModelSelection';
 
 
 const Sidebar = () => {
@@ -20,7 +21,10 @@ const Sidebar = () => {
           <div className='flex-1'>
               <div>
                   {/* newChat */}
-                  <NewChat />
+                      <NewChat />
+                      <div className='hidden sm:inline'>
+                          <ModelSelection />    
+                      </div>
                   <div>
                       {/* ModelSelection */}
                   </div>
