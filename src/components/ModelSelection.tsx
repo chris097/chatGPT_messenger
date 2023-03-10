@@ -11,7 +11,7 @@ const ModelSelection = () => {
     fallbackData: 'text-davinci-003'
   })
 
-  return <div>
+  return <div className='mt-2'>
     <Select
       className='mt-2 bg-[#434654] border-[#434654]'
       options={models?.modelOptions}
