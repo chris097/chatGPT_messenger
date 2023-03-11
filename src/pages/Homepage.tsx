@@ -14,8 +14,8 @@ const Homepage = () => {
                   </div>
                   <div className='space-y-2'>
                       <p className='infoText'>Explain something for me</p>
-                      <p className='infoText'>What's the difference between dog and cat</p>
-                      <p className='infoText'>What's the color sun</p>
+                      <p className='infoText'>What&apos;s the difference between dog and cat</p>
+                      <p className='infoText'>What&apos;s the color sun</p>
                   </div>
               </div>
               <div>
@@ -26,7 +26,7 @@ const Homepage = () => {
                   </div>
                   <div className='space-y-2'>
                       <p className='infoText'>Change ChatGPT Model to use</p>
-                      <p className='infoText'>Messages are stored in Firebase's Firestore</p>
+                      <p className='infoText'>Messages are stored in Firebase&apos;s Firestore</p>
                       <p className='infoText'>
                           Hot Toast notification when ChatGPT is thinking!
                       </p>
